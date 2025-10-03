@@ -1,12 +1,7 @@
-import re
 import keyboard
 import os
 import threading
-import tkinter as tk
-from tkinter import messagebox
 
-ROWS = 6
-COLUMNS = 7
 connectFourBoard = [[0 for _ in range(7)] for _ in range (6)]
 
 for row in connectFourBoard:
